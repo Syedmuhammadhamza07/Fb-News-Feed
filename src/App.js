@@ -1,6 +1,17 @@
 import './App.css';
 import FbPost from './components/FbPost';
 import { useEffect , useState } from 'react';
+import FbLogo from "./pngwing.com.png"
+import home from "./home.png"
+import friends from "./friend.png"
+import video from "./video.png"
+import market from "./marketplace.png"
+import gaming from "./gaming-pad.png"
+import menu from "./dots-menu.png"
+import messenger from "./pngwing.com (1).png"
+import notification from "./bell.png"
+import profile from "./components/FbPost/post-image.png"
+
 
 function App() {
   const [newsFeed, setNewsFeed] = useState([]);
@@ -12,7 +23,6 @@ function App() {
   }, []);
   return (
     <div>
-      <h1>News Feed</h1>
       {newsFeed.map((post) => (
         <FbPost key={post.id} post={post} />
       ))}
