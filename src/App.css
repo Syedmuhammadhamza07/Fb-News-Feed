@@ -4,12 +4,383 @@
   }
 }
 
+.main-container{
+  width: 100%;
+}
+
+.header-div{
+  width: 100%;
+  display: flex;
+  box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+  margin: 10px auto;
+}
+
+.fb-main{
+  display: flex;
+  align-items: center;
+  width: 36.5%;
+}
+
+.main-img{
+  width: 5rem;
+  height: 5rem;
+}
+
+.other-img{
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: auto;
+}
+
+.search-box{
+  width: 50%;
+  padding: 5px;
+  border: none;
+  margin: 0px 10px;
+  background-image: url('./search.png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 10px;
+}
+
+.other-tabs{
+  display: flex;
+  align-items: center;
+  width: 26.5%;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 37%;
+}
+
+.menu-img{
+  width: 3rem;
+  height: 3rem;
+  margin: 0px 10px;
+}
+
+.messenger-img{
+  width: 3rem;
+  height: 3rem;
+  margin: 0px 10px;
+}
+
+.notification-img{
+  width: 3rem;
+  height: 3rem;
+  margin: 0px 10px;
+}
+
+.profile-img{
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
+
+/* main view */
+@media only screen and (max-width: 2560px) {
+  .main-header{
+    display: block;
+  }
+
+  .tablet-header-div{
+    display: none;
+  }
+
+  .facebook-header{
+    display: none;
+  }
+
+  .laptop-header-div{
+    display: none;
+  }
+
+  .fb-post-div{
+    width: 40%;
+    margin: auto;
+  }
+}
+
+
+/* laptop view */
+@media only screen and (max-width: 2560px) {
+  .main-header{
+    display: block;
+  }
+
+  .tablet-header-div{
+    display: none;
+  }
+
+  .facebook-header{
+    display: none;
+  }
+
+  .search-box{
+    width: 50%;
+    height: 5rem;
+    padding: 0px 30px;
+    border: none;
+    margin: 0px 10px;
+    background-image: url('./search.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0;
+  }
+
+  .search-box::placeholder{
+    color: rgb(200, 200, 200);
+  }
+
+  .menu-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0px 10px;
+}
+
+}
+
+
+/* Tablet View */
+
+@media only screen and (max-width: 768px) {
+  .tablet-header-div{
+    display: block;
+  }
+
+  .laptop-header-div{
+    display: none;
+  }
+
+  .main-header{
+    display: none;
+  }
+
+  .header-div{
+    width: auto;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin: 10px auto;
+  }
+
+  .facebook-header{
+    display: none;
+  }
+
+  .fb-main{
+    width: auto;
+  }
+
+  .search-box{
+    width: 50%;
+    height: 5rem;
+    border: none;
+    margin: 0px 10px;
+    background-image: url('./icons8-search-48.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+  }
+
+  .other-tabs{
+    width: auto;
+  }
+
+  .add-img{
+    width: 4rem;
+  }
+
+  .other-img{
+    width: 3rem;
+    margin: 10px;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('./components/CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 96px;
+}
+}
+
+
+/* Tablet View */
+
+@media only screen and (max-width: 700px) {
+  .tablet-header-div{
+    display: none;
+  }
+
+  .main-header{
+    display: none;
+  }
+
+  .laptop-header-div{
+    display: block;
+  }
+
+  .header-div{
+    width: auto;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin: 10px auto;
+  }
+
+  .facebook-header{
+    display: none;
+  }
+
+  .fb-main{
+    width: 50%;
+  }
+
+  .profile-info{
+    width: 80%;
+  }
+
+  .search-box{
+    width: 0px;
+    height: 5rem;
+    border: none;
+    margin: 0px 10px;
+    background-image: url('./search.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+  }
+
+  .notification-img {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0px 10px;
+  }
+
+  .messenger-img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0px 10px;
+  }
+
+  .other-tabs{
+    width: auto;
+  }
+
+  .add-img {
+    width: 4.5rem;
+  }
+
+  .other-img {
+    width: 4rem;
+    height: 4rem;
+    margin: 10px;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('./components/CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 96px;
+}
+}
+
+/* mobile large */
+
+@media only screen and (max-width: 425px) {
+
+  .facebook-header{
+    display: block;
+  }
+
+  .fb-post-div{
+    width: 100%;
+  }
+
+  .laptop-header-div{
+    display: none;
+  }
+
+  .mobile-header-div{
+    width: 100%;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin: 10px auto;
+  }
+
+  .header-div{
+    display: none;
+  }
+
+  .fb-main{
+    width: 100%;
+  }
+
+  .search-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .search-box{
+    width: 20%;
+    padding: 5px;
+    border: none;
+    margin: 0px 10px;
+    background-image: url('./icons8-search-48.png');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px;
+  }
+
+  .messenger-img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 10px;
+  }
+  
+  .notification-img {
+    width: 3.5rem;
+    height: 3rem;
+    margin: 0px 10px;
+  }
+
+  .fb-menu{
+    width: 25px;
+    margin: 0;
+  }
+
+  .facebook-img{
+    width: 30%;
+    margin: 0px 10px;
+  }
+
+  .other-tabs{
+    width: 100%;
+  }
+
+  .other-img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+  }
+}
+
+
 .fb-post-div{
-  width: 470px;
+  width: 40%;
   margin: 50px auto;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 5px;
-
 }
 
 .btn-div{

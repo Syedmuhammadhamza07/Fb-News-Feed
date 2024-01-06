@@ -1,5 +1,5 @@
 .fb-post-div{
-  width: 470px;
+  width: 100%;
   margin: 20px auto;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 5px;
@@ -51,7 +51,7 @@ align-items: center;
 }
 
 .emoji-img{
-width: 18px;
+width: 30%;
 height: 18px;
 margin: 5px 0px;
 }
@@ -62,10 +62,124 @@ align-items: center;
 }
 
 .userName p{
-font-size: 12px;
+font-size: 7.25pt;
 margin: 5px;
 }
 
 .btn-div{
 border-top: 1px solid rgb(200, 200, 200);
 }
+
+.tablet-btn-div{
+  display: none;
+}
+
+@media only screen and (max-width: 2560px) {
+  .tablet-btn-div{
+    display: block;
+  }
+
+  .btn-div{
+    display: none;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 94px 5px;
+    background-attachment: fixed;
+  }
+
+  .fb-post-div{
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .tablet-btn-div{
+    display: block;
+  }
+
+  .btn-div{
+    display: none;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 94px 5px;
+    background-attachment: fixed;
+  }
+
+  .fb-post-div{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .tablet-btn-div{
+    display: block;
+  }
+
+  .btn-div{
+    display: none;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 94px 5px;
+    background-attachment: fixed;
+  }
+
+  .fb-post-div{
+    width: 70%;
+  }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+  .tablet-btn-div{
+    display: block;
+  }
+
+  .fb-post-div{
+    width: 100%;
+  }
+
+  .btn-div{
+    display: none;
+  }
+
+  .like-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/like.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 94px 5px;
+    background-attachment: fixed;
+}
+
+}
+

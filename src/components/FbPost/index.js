@@ -39,12 +39,18 @@ function FbPost({post}) {
               <img src={care} className="emoji-img"/>
             </div>
             <div className="userName">
-              <p>S. M. Hamza, Osama Sohail and 1.5K others</p>
+              <p>S. M. Hamza and 1.5K others</p>
               <p>8 Comments</p>
               <p>30 Shares</p>
             </div>
           </div>
           <div className="btn-div">
+            <CustomBtn text="Like" className="like-btn" />
+            <CustomBtn text="Comment" className="comment-btn" />
+            <CustomBtn text="Share" className="share-btn" />
+          </div>
+
+          <div className="tablet-btn-div">
             <CustomBtn text="Like" className="like-btn" />
             <CustomBtn text="Comment" className="comment-btn" />
             <CustomBtn text="Share" className="share-btn" />
