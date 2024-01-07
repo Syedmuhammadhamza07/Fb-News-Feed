@@ -18,10 +18,11 @@ function FbPost({post}) {
             </div>
             <div>
               <h3 className="post-title">
-                {post.title} - {post.category}
+                {post.title}
               </h3>
+              <h3 className="post-title">{post.category}</h3>
               <div className="sponsored-div">
-                <div>Sponsored . </div>
+                <div className="sponsored">Sponsored . </div>
                 <img src={globe} width="12px" />
               </div>
             </div>
@@ -34,7 +35,7 @@ function FbPost({post}) {
         <div>
           <div className="emoji-div">
             <div className="emoji">
-              <img src={sad} className="emoji-img"/>
+              <img src={sad} className="sad-emoji-img"/>
               <img src={love} className="emoji-img"/>
               <img src={care} className="emoji-img"/>
             </div>

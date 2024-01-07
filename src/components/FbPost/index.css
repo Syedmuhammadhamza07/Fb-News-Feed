@@ -32,37 +32,58 @@ margin-right: 5px;
 }
 
 .post-title{
-font-size: 15px;
+font-size: 25px;
 font-weight: bold;
 color: rgb(14, 73, 175);
 line-height: 0;
 }
-.description{
-margin: 10px 0 -18px;
-}
+
 .sponsored-div{
   display: flex;
   align-items: center;
 }
 
+.sponsored{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.description {
+  margin: 10px 0px -18px;
+  font-size: 20px;
+}
+
 .emoji-div{
+  width: 100%;
 display: flex;
 align-items: center;
+}
+
+.emoji {
+  width: 15.75%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .emoji-img{
-width: 30%;
-height: 18px;
-margin: 5px 0px;
+  width: 35%;
+  margin: 5px 0px 5px 2px;
 }
 
-.userName{
-display: flex;
-align-items: center;
+.sad-emoji-img {
+  width: 36%;
+  margin: 5px 0px 5px 2px;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
 }
 
 .userName p{
-font-size: 7.25pt;
+font-size: 12.25pt;
 margin: 5px;
 }
 
@@ -90,13 +111,74 @@ border-top: 1px solid rgb(200, 200, 200);
     background-color: transparent;
     background-image: url('../CustomBtn/like.png');
     background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 94px 5px;
-    background-attachment: fixed;
+    background-size: 22px;
+    background-position: 34% 10px;
+    font-size: 2.3rem;
   }
+
+  .comment-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/comment.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 22% 12px;
+    font-size: 2.3rem;
+  }
+
+  .share-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/share.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 30% 12px;
+    font-size: 2.3rem;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.post-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(14, 73, 175);
+  line-height: 0;
+}
+.sponsored{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.description {
+  margin: 10px 0px -18px;
+  font-size: 20px;
+}
 
   .fb-post-div{
     width: 50%;
+  }
+
+  .emoji-img{
+    width: 3.5rem;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .sad-emoji-img {
+    width: 3.6rem;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .userName p {
+    font-size: 17pt;
+    margin: 5px;
   }
 
 }
@@ -117,14 +199,81 @@ border-top: 1px solid rgb(200, 200, 200);
     background-color: transparent;
     background-image: url('../CustomBtn/like.png');
     background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 94px 5px;
-    background-attachment: fixed;
+    background-size: 20px;
+    background-position: 31% 8px;
+    font-size: 20px;
   }
+
+  .comment-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/comment.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 15% 9px;
+    font-size: 20px;
+  }
+
+  .share-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/share.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 26% 9px;
+    font-size: 20px;
+  }
+
+
 
   .fb-post-div{
     width: 70%;
   }
+
+  .post-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14, 73, 175);
+    line-height: 0;
+  }
+
+  .sponsored {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .description {
+    margin: 10px 0px -18px;
+    font-size: 17px;
+  }
+
+  .sad-emoji-img {
+    width: 25px;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .emoji-img {
+    width: 25px;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .emoji {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .userName p {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  
 
 }
 
@@ -144,14 +293,79 @@ border-top: 1px solid rgb(200, 200, 200);
     background-color: transparent;
     background-image: url('../CustomBtn/like.png');
     background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 94px 5px;
-    background-attachment: fixed;
+    background-size: 17px;
+    background-position: 22% 5px;
+    font-size: 1.5rem;
+  }
+
+  .comment-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/comment.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 0% 8px;
+    font-size: 1.5rem;
+  }
+
+  .share-btn {
+    border: none;
+    width: 33.33333333333333%;
+    padding: 5px;
+    background-color: transparent;
+    background-image: url('../CustomBtn/share.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 15% 8px;
+    font-size: 1.5rem;
   }
 
   .fb-post-div{
     width: 70%;
   }
+
+  .emoji {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sad-emoji-img {
+    width: 17.5px;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .emoji-img {
+    width: 17px;
+    margin: 5px 0px 5px 2px;
+  }
+
+  .userName p {
+    font-size: 9px;
+    margin: 5px;
+  }
+
+  .post-title {
+    font-size: 13pt;
+    font-weight: bold;
+    color: rgb(14, 73, 175);
+    line-height: 0;
+  }
+
+  .post-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(14, 73, 175);
+    line-height: 0;
+  }
+
+  .sponsored {
+    font-size: 12px;
+    line-height: 25px;
+}
 
 }
 
@@ -177,8 +391,54 @@ border-top: 1px solid rgb(200, 200, 200);
     background-image: url('../CustomBtn/like.png');
     background-repeat: no-repeat;
     background-size: 18px;
-    background-position: 94px 5px;
-    background-attachment: fixed;
+    background-position: 22.4% 5px;
+  }
+
+.comment-btn {
+  border: none;
+  width: 33.33333333333333%;
+  padding: 5px;
+  background-color: transparent;
+  background-image: url('../CustomBtn/comment.png');
+  background-repeat: no-repeat;
+  background-size: 16%;
+  background-position: 1% 8px;
+  font-size: 1.5rem;
+}
+
+.share-btn {
+  border: none;
+  width: 33.33333333333333%;
+  padding: 5px;
+  background-color: transparent;
+  background-image: url('../CustomBtn/share.png');
+  background-repeat: no-repeat;
+  background-size: 14%;
+  background-position: 3% 9px;
+  font-size: 1.5rem;
+}
+
+.emoji-img {
+  width: 36%;
+  height: 18px;
+  margin: 5px 0px;
+}
+
+.userName p {
+  font-size: 10.25px;
+  margin: 5px;
+}
+
+.post-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(14, 73, 175);
+  line-height: 0;
+}
+
+.sponsored {
+  font-size: 12px;
+  line-height: 25px;
 }
 
 }
